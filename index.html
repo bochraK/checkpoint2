@@ -5,37 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>checkpoint2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <ul>
             <li> <a href= #Home>Home</a></li>
-            <li><a href=#About> About</a> </li>
+            <li> <a href=#About> About</a> </li>
             <li> <a href=#work> Work</a></li>
-            <li><a href=#resume> Resume</a></li>
-            <li><a href=#contact> Contact</a></li>
+            <li> <a href=#resume> Resume</a></li>
+            <li> <a href=#contact> Contact</a></li>
 
         </ul>
         
     </nav>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
 <main>
+   
  <section id="Home">
-    <h1>HOME</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Eveniet dolores doloribus eos repellendus vel, architecto magnam. 
         Autem aut, in pariatur est voluptatibus quod soluta? Velit deleniti repellat aperiam doloremque fuga!</p>
- </section>
- <section id="work">
+    </section>
+
+ <div id="content-level2">
+  
+    <section id="work">
     <h1>WORK</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolores doloribus eos repellendus vel, architecto magnam. Autem aut, in pariatur est voluptatibus quod soluta? Velit deleniti repellat aperiam doloremque fuga!</p>
- 
-</section>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hQAHSlTtcmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- <section id="resume">
+    </section>
+
+   <iframe id="video" width="560" height="415" src="https://www.youtube.com/embed/hQAHSlTtcmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+   <section id="resume">
     <h1>RESUME</h1>
-    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--gps5oVPP--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/5ct9nhbw6gdpb8dh0yy1.png" alt="web dev">
+    <img id ="img"src="https://res.cloudinary.com/practicaldev/image/fetch/s--gps5oVPP--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/5ct9nhbw6gdpb8dh0yy1.png" alt="web dev">
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore neque iure placeat aliquid vel illo ab velit officiis? Cum, facere recusandae ex dolorum facilis ipsam praesentium ut laudantium maiores. Voluptate!</p>
-    <table>
+    
+    <table id="table1">
         <thead>
             <tr>
                 <th colspan="3"> RESUME</th>
@@ -60,8 +69,9 @@
           
         </tbody>
     </table>
-    
+    <br><br>
  </section>
+</div>
 </main>
  <footer id="contact">
     <h1>CONTACT</h1>
@@ -74,7 +84,7 @@
           <label for="email">Email:</label><br>
           <input type="text" name="email" placeholder="nom@gmail.com"><br><br>
 
-         <table>
+ <table>
 <tr>
     <td>
         <label for="f"> FEMALE</label>
@@ -103,7 +113,8 @@
      
     </select>
     <br>  <br>  <br>
-<input type="submit" value="Submit">
+<input type="submit" value="Submit" id="submitbtn">
+
 
 
  </footer>
